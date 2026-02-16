@@ -1,0 +1,102 @@
+.login-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background Image */
+.login-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../assets/coins.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Very light blur + darker tone */
+  filter: blur(1.5px) brightness(0.75);
+  transform: scale(1.02);
+
+  z-index: -1;
+}
+
+/* Title */
+.app-title {
+  color: #360e0e; /* warm cream */
+  margin-bottom: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+/* Glass Login Box */
+.login-box {
+  background: rgba(65, 41, 41, 0.75); /* deep warm tone */
+  backdrop-filter: blur(4px);
+  padding: 35px;
+  border-radius: 16px;
+  width: 340px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+
+/* Login Heading */
+.login-box h2 {
+  color: #ebe8e6;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+}
+
+/* Button – Deep Wine Red */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #7a0f1f, #5a0c18);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.login-box button:hover {
+  background: linear-gradient(to right, #8e1427, #6b0e1d);
+  transform: translateY(-2px);
+}
+
+/* Register Text */
+.link-text {
+  margin-top: 15px;
+  color: #f5e8dc;
+  font-size: 14px;
+}
+
+.link-text a {
+  color: #a3152a; /* wine red */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}
