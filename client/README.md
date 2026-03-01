@@ -1,8 +1,7 @@
 ## 💰 Expense Tracker App
 ---
-This project is a full-stack Expense Tracker application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a simple yet efficient Income & Expense Management System, allowing users to securely manage their transactions, track total balance, and view category-wise analytics through an interactive dashboard.
+This project is a full-stack Expense Tracker application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a simple yet efficient Income & Expense Management System, allowing users to securely manage their transactions, track total balance, and view category-wise analytics through an interactive dashboard.The application supports user authentication and ensures that each user can manage their own financial data independently.
 
-The application supports user authentication and ensures that each user can manage their own financial data independently.
 ---
 
 ## 🔧 Technologies Used
